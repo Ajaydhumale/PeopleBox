@@ -1,0 +1,45 @@
+1. Find all average of scores grouped by drivers.,,,,"5. Find all scores by age group 20-30, 30-40,40-50",,,,,6. Find all scores by managers (ensure manager name is there),
+,,,,,,,,,,
+driver_name,average,,,age_group,age_grp_score_sum,,,,manager_name,Manager_score
+Career Growth,2.818181818,,,20-30,200,,,,Annika Ward,8
+Company Policies,2.763636364,,,31-40,135,,,,Evonne Grant,7
+Manager Support,2.818181818,,,41-50,278,,,,Joycelyn Halvorson,13
+Role Clarity,2.745454545,,,,,,,,Kandra Lakin,10
+,,,,,,,,,Lesley Farrell,9
+2. Find all scores by department and driver combination,,,,,,,,,Magnolia Kohler,7
+,,,,,,,,,Malika Deckow,7
+SUM of combination_score,department,,,,,,,,Manie Halvorson,8
+driver_name,Engineering,Finance,Marketing,Operations,Sales,Support,Grand Total,,Rina Gerhold,11
+Career Growth,28,14,32,23,30,28,155,,Solomon Fritsch,11
+Company Policies,28,8,24,22,41,29,152,,,
+Manager Support,30,9,30,21,29,36,155,,,
+Role Clarity,26,10,27,28,28,32,151,,,
+Grand Total,112,41,113,94,128,125,613,,,
+,,,,,,,,,,
+3. Find all scores by location and driver combination,,,,,,,7. if a group (eg: combination of department for a specific driver) has less than 3 responses,,,
+,,,,,,,,,,
+SUM of combination_score,location,,,,,,driver_name,department,,
+driver_name,Bangalore,Mumbai,San Francisco,Grand Total,,,Career Growth,Engineering,,
+Career Growth,47,50,58,155,,,Career Growth,Finance,,
+Company Policies,57,39,56,152,,,Career Growth,Marketing,,
+Manager Support,53,44,58,155,,,Career Growth,Operations,,
+Role Clarity,50,39,62,151,,,Career Growth,Sales,,
+Grand Total,207,172,234,613,,,Career Growth,Support,,
+,,,,,,,Company Policies,Engineering,,
+4. Find all scores by gender and driver,,,,,,,Company Policies,Finance,,
+,,,,,,,Company Policies,Marketing,,
+SUM of combination_score,gender,,,,,,Company Policies,Operations,,
+driver_name,Female,Male,Grand Total,,,,Company Policies,Sales,,
+Career Growth,67,88,155,,,,Company Policies,Support,,
+Company Policies,66,86,152,,,,Manager Support,Engineering,,
+Manager Support,69,86,155,,,,Manager Support,Finance,,
+Role Clarity,64,87,151,,,,Manager Support,Marketing,,
+Grand Total,266,347,613,,,,Manager Support,Operations,,
+,,,,,,,Manager Support,Sales,,
+,,,,,,,Manager Support,Support,,
+,,,,,,,Role Clarity,Engineering,,
+,,,,,,,Role Clarity,Finance,,
+,,,,,,,Role Clarity,Marketing,,
+,,,,,,,Role Clarity,Operations,,
+,,,,,,,Role Clarity,Sales,,
+,,,,,,,Role Clarity,Support,,
